@@ -1,0 +1,65 @@
+{
+    "type": "struct",
+    "fields": [
+        {
+            "name": "symbol",
+            "type": "string",
+            "nullable": false,
+            "metadata": {}
+        },
+        {
+            "name": "timeframe",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "timestamp",
+            "type": "timestamp",
+            "nullable": false,
+            "metadata": {}
+        },
+        {
+            "name": "low",
+            "type": "float",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "high",
+            "type": "float",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "open",
+            "type": "float",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "close",
+            "type": "float",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "volume",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "ema20",
+            "type": "float",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "ema50",
+            "type": "float",
+            "nullable": true,
+            "metadata": {}
+        }
+    ]
+}

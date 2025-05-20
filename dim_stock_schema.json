@@ -1,0 +1,53 @@
+{
+    "type": "struct",
+    "fields": [
+        {
+            "name": "symbol",
+            "type": "string",
+            "nullable": false,
+            "metadata": {}
+        },
+        {
+            "name": "stockName",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "marketCap",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "dividendYield",
+            "type": "float",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "ipoDate",
+            "type": "timestamp",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "industry",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "sector",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "exchangeName",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        }
+    ]
+}
